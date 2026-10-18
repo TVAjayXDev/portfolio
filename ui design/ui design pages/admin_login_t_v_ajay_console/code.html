@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_blank" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-surface":"#e4e1eb","on-surface-variant":"#bbc9ce","secondary-fixed":"#e2e1f5","on-secondary-fixed-variant":"#454655","surface-tint":"#00d9ff","secondary":"#c5c5d8","on-primary-fixed-variant":"#004e5d","primary-container":"#00d9ff","surface-container-high":"#2a2931","inverse-primary":"#00687b","on-error":"#690005","primary":"#afecff","secondary-fixed-dim":"#c5c5d8","on-tertiary-fixed":"#271900","on-tertiary-fixed-variant":"#5e4100","on-primary-fixed":"#001f26","on-primary-container":"#005b6c","surface-container-low":"#1b1b22","outline":"#859398","tertiary":"#ffdeaa","error":"#ffb4ab","on-error-container":"#ffdad6","secondary-container":"#474858","error-container":"#93000a","surface-bright":"#393840","primary-fixed":"#aeecff","surface-container-lowest":"#0e0e14","inverse-surface":"#e4e1eb","on-tertiary-container":"#6e4d00","inverse-on-surface":"#303037","tertiary-fixed-dim":"#febb29","surface":"#13131a","on-secondary":"#2e2f3e","on-secondary-container":"#b7b7ca","tertiary-fixed":"#ffdea9","on-background":"#e4e1eb","surface-container":"#1f1f26","surface-variant":"#34343c","on-secondary-fixed":"#191a28","on-tertiary":"#422d00","outline-variant":"#3c494d","background":"#13131a","surface-dim":"#13131a","primary-fixed-dim":"#00d9ff","surface-container-highest":"#34343c","tertiary-container":"#ffbb2a","on-primary":"#003641"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-2xl":"4rem","space-lg":"1.5rem","space-xs":"0.25rem","space-xl":"2.5rem","space-sm":"0.5rem",margin:"2rem","margin-mobile":"1.25rem","gutter-mobile":"1rem",gutter:"1.5rem","space-md":"1rem"},fontFamily:{"body-sm":["Inter"],"display-hero":["Space Grotesk"],"headline-lg":["Space Grotesk"],"code-sm":["JetBrains Mono"],"code-md":["JetBrains Mono"],"display-hero-mobile":["Space Grotesk"],"headline-md":["Space Grotesk"],"headline-sm":["Space Grotesk"],"meta-label":["JetBrains Mono"],"body-md":["Inter"],"body-lg":["Inter"],"headline-lg-mobile":["Space Grotesk"]},fontSize:{"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"700"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"600"}],"code-sm":["12px",{lineHeight:"16px",fontWeight:"500"}],"code-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"display-hero-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-md":["22px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-sm":["18px",{lineHeight:"24px",fontWeight:"500"}],"meta-label":["11px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"body-lg":["16px",{lineHeight:"26px",fontWeight:"400"}],"headline-lg-mobile":["26px",{lineHeight:"34px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen"><main class="w-full bg-surface"><div class="flex flex-col w-full items-center justify-center py-12 px-4 sm:px-6 relative overflow-hidden select-none">
+<!-- Subtle ambient cyan telemetry glow behind module -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[520px] h-[340px] bg-surface-tint/5 rounded-full blur-[110px] pointer-events-none"></div>
+<!-- Telemetry Header Banner -->
+<div class="mb-6 flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-surface-container-low shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-surface-tint opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-surface-tint"></span>
+</span>
+<span class="font-meta-label text-meta-label text-on-surface-variant uppercase tracking-wider">
+      System Status: <span class="text-on-surface font-semibold">Online</span>  |  Node: <span class="text-on-surface font-semibold">01-PROD</span>  |  TLS 1.3
+    </span>
+</div>
+<!-- Main Administrative Card -->
+<div class="w-full max-w-[440px] bg-surface-container-low rounded-xl shadow-xl p-8 relative transition-all duration-300">
+<!-- Top Decorative Micro-Accent -->
+<div class="absolute -top-px left-8 right-8 h-[2px] bg-gradient-to-r from-transparent via-surface-tint/60 to-transparent"></div>
+<!-- Brand and Identity Header -->
+<div class="flex flex-col items-center text-center mb-8">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center shadow-md mb-4 group relative">
+<div class="absolute inset-0 rounded-xl bg-surface-tint/10 blur-sm pointer-events-none"></div>
+<span class="font-display-hero text-headline-md text-surface-tint font-bold tracking-tight">TV</span>
+</div>
+<h1 class="font-headline-md text-headline-md text-on-surface font-semibold tracking-tight">Admin Portal</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 max-w-[300px]">
+        Restricted management console for T V Ajay Portfolio
+      </p>
+</div>
+<!-- Login Form -->
+<form class="space-y-5" id="admin-login-form" onsubmit="event.preventDefault(); triggerAuth();">
+<!-- Admin Email Input -->
+<div class="space-y-1.5 text-left">
+<label class="font-meta-label text-meta-label text-on-surface-variant uppercase tracking-wider block" for="admin-email">
+          Administrative Email
+        </label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px] pointer-events-none transition-colors duration-150" id="email-icon">
+            mail
+          </span>
+<input class="w-full h-11 pl-11 pr-4 bg-surface-container text-on-surface placeholder:text-outline/40 font-body-md text-body-md rounded-lg focus:outline-none focus:bg-surface-container-high transition-all duration-150" id="admin-email" name="email" onblur="document.getElementById('email-icon').classList.remove('text-surface-tint')" onfocus="document.getElementById('email-icon').classList.add('text-surface-tint')" placeholder="admin@domain.com" required="" type="email"/>
+</div>
+</div>
+<!-- Security Key / Password Input -->
+<div class="space-y-1.5 text-left">
+<div class="flex items-center justify-between">
+<label class="font-meta-label text-meta-label text-on-surface-variant uppercase tracking-wider block" for="admin-key">
+            Security Key / Password
+          </label>
+<span class="font-code-sm text-code-sm text-outline/60 cursor-default">FIPS-140-2</span>
+</div>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px] pointer-events-none transition-colors duration-150" id="pass-icon">
+            key
+          </span>
+<input class="w-full h-11 pl-11 pr-11 bg-surface-container text-on-surface placeholder:text-outline/40 font-code-md text-code-md rounded-lg focus:outline-none focus:bg-surface-container-high transition-all duration-150" id="admin-key" name="password" onblur="document.getElementById('pass-icon').classList.remove('text-surface-tint')" onfocus="document.getElementById('pass-icon').classList.add('text-surface-tint')" placeholder="••••••••••••" required="" type="password"/>
+<button aria-label="Toggle password visibility" class="absolute right-3.5 text-on-surface-variant hover:text-on-surface transition-colors duration-150 flex items-center justify-center focus:outline-none" id="toggle-visibility-btn" onclick="togglePasswordVisibility()" type="button">
+<span class="material-symbols-outlined text-[20px]" id="toggle-icon">visibility</span>
+</button>
+</div>
+</div>
+<!-- Remember Session Checkbox -->
+<div class="flex items-center justify-between pt-1">
+<label class="flex items-center gap-2.5 cursor-pointer group select-none">
+<div class="relative flex items-center justify-center">
+<input class="peer appearance-none w-[18px] h-[18px] rounded bg-surface-container checked:bg-surface-tint transition-all duration-150 cursor-pointer focus:outline-none" id="remember-session" name="remember" type="checkbox"/>
+<span class="material-symbols-outlined text-surface absolute text-[14px] font-bold opacity-0 peer-checked:opacity-100 pointer-events-none transition-opacity duration-150">
+              check
+            </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant group-hover:text-on-surface transition-colors duration-150">
+            Keep active for 30 days
+          </span>
+</label>
+<span class="font-meta-label text-meta-label text-surface-tint/80 bg-surface-container px-2 py-0.5 rounded">
+          MFA ENFORCED
+        </span>
+</div>
+<!-- Submit Action Button -->
+<div class="pt-2">
+<button class="w-full h-11 bg-surface-tint text-on-primary-fixed font-headline-sm text-headline-sm font-semibold rounded-lg flex items-center justify-center gap-2 hover:opacity-95 active:scale-[0.99] transition-all duration-200 shadow-md" id="submit-btn" type="submit">
+<span class="material-symbols-outlined text-[20px]">lock_open</span>
+<span>Sign In to Console</span>
+</button>
+</div>
+</form>
+<!-- Telemetry Diagnostic Info Inset -->
+<div class="mt-8 pt-5 bg-surface-container/40 -mx-8 -mb-8 px-8 py-5 rounded-b-xl flex items-start gap-3">
+<span class="material-symbols-outlined text-outline text-[18px] mt-0.5 shrink-0">
+        shield
+      </span>
+<p class="font-body-sm text-body-sm text-outline leading-tight">
+        Authorized personnel only. Access attempts are cryptographically logged with IP and origin telemetry.
+      </p>
+</div>
+</div>
+<!-- Operational Metadata Coordinates -->
+<div class="mt-8 flex items-center gap-6 font-meta-label text-meta-label text-outline/50 tracking-widest uppercase">
+<span>BUILD: v4.8.2-PROD</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline/30"></span>
+<span>AUTH: OAUTH2 / ED25519</span>
+<span class="inline-block w-1 h-1 rounded-full bg-outline/30"></span>
+<span>LOC: HYD-DC-01</span>
+</div>
+</div>
+<script>
+  function togglePasswordVisibility() {
+    const input = document.getElementById('admin-key');
+    const icon = document.getElementById('toggle-icon');
+    if (!input || !icon) return;
+
+    if (input.type === 'password') {
+      input.type = 'text';
+      icon.textContent = 'visibility_off';
+    } else {
+      input.type = 'password';
+      icon.textContent = 'visibility';
+    }
+  }
+
+  function triggerAuth() {
+    const btn = document.getElementById('submit-btn');
+    if (!btn) return;
+    const initialText = btn.innerHTML;
+    
+    btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">progress_activity</span><span>Verifying Credentials...</span>';
+    btn.disabled = true;
+
+    setTimeout(() => {
+      btn.innerHTML = initialText;
+      btn.disabled = false;
+    }, 1200);
+  }
+</script></main></body></html>

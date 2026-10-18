@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #111118;
+  --foreground: #F0F0F0;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #111118;
+  color: #F0F0F0;
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2931;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3c494d;
+}
+
+/* Cybernetic Grid & Glow utilities */
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(133, 147, 152, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(133, 147, 152, 0.05) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(133, 147, 152, 0.15) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.cyan-glow-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cyan-glow-hover:hover {
+  border-color: rgba(0, 217, 255, 0.4);
+  box-shadow: 0 0 24px rgba(0, 217, 255, 0.12);
+}
+
+/* Accessible Form Control Borders (WCAG 2.1 Non-Text Contrast >= 3:1) */
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="button"]):not([type="hidden"]),
+textarea,
+select {
+  border-color: #859398;
+}
+
+/* Accessible Keyboard Focus Visible */
+:focus-visible {
+  outline: 2px solid #00D9FF !important;
+  outline-offset: 2px !important;
+}
+
+/* Reduced Motion Preference Enforcement */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-surface":"#e4e1eb","on-surface-variant":"#bbc9ce","secondary-fixed":"#e2e1f5","on-secondary-fixed-variant":"#454655","surface-tint":"#00d9ff","secondary":"#c5c5d8","on-primary-fixed-variant":"#004e5d","primary-container":"#00d9ff","surface-container-high":"#2a2931","inverse-primary":"#00687b","on-error":"#690005","primary":"#afecff","secondary-fixed-dim":"#c5c5d8","on-tertiary-fixed":"#271900","on-tertiary-fixed-variant":"#5e4100","on-primary-fixed":"#001f26","on-primary-container":"#005b6c","surface-container-low":"#1b1b22","outline":"#859398","tertiary":"#ffdeaa","error":"#ffb4ab","on-error-container":"#ffdad6","secondary-container":"#474858","error-container":"#93000a","surface-bright":"#393840","primary-fixed":"#aeecff","surface-container-lowest":"#0e0e14","inverse-surface":"#e4e1eb","on-tertiary-container":"#6e4d00","inverse-on-surface":"#303037","tertiary-fixed-dim":"#febb29","surface":"#13131a","on-secondary":"#2e2f3e","on-secondary-container":"#b7b7ca","tertiary-fixed":"#ffdea9","on-background":"#e4e1eb","surface-container":"#1f1f26","surface-variant":"#34343c","on-secondary-fixed":"#191a28","on-tertiary":"#422d00","outline-variant":"#3c494d","background":"#13131a","surface-dim":"#13131a","primary-fixed-dim":"#00d9ff","surface-container-highest":"#34343c","tertiary-container":"#ffbb2a","on-primary":"#003641"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-2xl":"4rem","space-lg":"1.5rem","space-xs":"0.25rem","space-xl":"2.5rem","space-sm":"0.5rem",margin:"2rem","margin-mobile":"1.25rem","gutter-mobile":"1rem",gutter:"1.5rem","space-md":"1rem"},fontFamily:{"body-sm":["Inter"],"display-hero":["Space Grotesk"],"headline-lg":["Space Grotesk"],"code-sm":["JetBrains Mono"],"code-md":["JetBrains Mono"],"display-hero-mobile":["Space Grotesk"],"headline-md":["Space Grotesk"],"headline-sm":["Space Grotesk"],"meta-label":["JetBrains Mono"],"body-md":["Inter"],"body-lg":["Inter"],"headline-lg-mobile":["Space Grotesk"]},fontSize:{"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"display-hero":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"700"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"600"}],"code-sm":["12px",{lineHeight:"16px",fontWeight:"500"}],"code-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"display-hero-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-md":["22px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-sm":["18px",{lineHeight:"24px",fontWeight:"500"}],"meta-label":["11px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"body-lg":["16px",{lineHeight:"26px",fontWeight:"400"}],"headline-lg-mobile":["26px",{lineHeight:"34px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-md border-b border-outline-variant"><div class="h-16 max-w-[1360px] mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm"><img alt="TV Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VUJSdqrYvxJjpm5qiPtqpQtHrg7_nL4aWCx8I8S1jKua5Bb1beFyPt2vX92XiZ1kLkM1RgQcXhXvZSODarz72hPea_fIMmaQSc-ZZH8NzdId8E005dnw6bvYdcy-VZpRwsHoLm4PQ0FF7-WRSEwIKRQBYOY-0_cYOkhYRcyt-_oK4JswYnpljTWclGTTRFRbiV9-IMci5gvkyvEEk3bwdAAT1FM36WDJcTDBkiNVSL"/><a class="flex items-center gap-space-xs" data-path="about" href="#"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">T V Ajay</span><span class="font-meta-label text-meta-label text-surface-tint uppercase bg-surface-container-high px-space-xs py-0.5 rounded border border-outline-variant">Sys//Dev</span></a></div><nav class="hidden xl:flex items-center gap-gutter" data-active-classes="text-surface-tint font-headline-sm"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="#">Projects</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="education" href="#">Education</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="experience" href="#">Experience</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="certifications" href="#">Certifications</a><a aria-current="page" class="transition-colors text-surface-tint font-headline-sm" data-path="blog" href="#">Blog</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><button class="hidden sm:flex items-center gap-space-sm px-space-sm py-1 rounded bg-surface-container-low border border-outline-variant text-on-surface-variant hover:border-surface-tint transition-all" type="button"><span class="material-symbols-outlined text-[16px]">search</span><span class="font-meta-label text-meta-label">Search</span><kbd class="font-code-sm text-code-sm bg-surface-container px-1 rounded text-outline border border-outline-variant">Ctrl K</kbd></button><div class="flex items-center gap-space-xs border-l border-outline-variant pl-space-sm"><a class="p-1.5 rounded text-on-surface-variant hover:text-surface-tint hover:bg-surface-container transition-colors" href="#" title="Source Code"><span class="material-symbols-outlined text-[20px]">code</span></a><a class="p-1.5 rounded text-on-surface-variant hover:text-surface-tint hover:bg-surface-container transition-colors" href="#" title="Professional Profile"><span class="material-symbols-outlined text-[20px]">share</span></a></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface"><div class="flex flex-col w-full">
+<div class="relative w-full overflow-hidden">
+<div class="absolute inset-0 bg-radial from-surface-tint/5 via-transparent to-transparent pointer-events-none opacity-40"></div>
+<div class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin pt-space-lg pb-space-2xl">
+<!-- Breadcrumb Navigation -->
+<div class="flex items-center justify-between mb-space-lg">
+<a class="inline-flex items-center gap-space-xs font-code-sm text-code-sm text-on-surface-variant hover:text-surface-tint transition-colors group" data-path="blog" href="#">
+<span class="material-symbols-outlined text-[16px] group-hover:-translate-x-1 transition-transform">arrow_back</span>
+<span>Return to Engineering Index</span>
+</a>
+<div class="flex items-center gap-space-xs font-meta-label text-meta-label text-outline uppercase tracking-wider">
+<span class="inline-block w-2 h-2 rounded-full bg-surface-tint animate-pulse"></span>
+<span>Telemetry Verified :: Rev 04.9b</span>
+</div>
+</div>
+<!-- Article Header Container -->
+<header class="flex flex-col gap-space-md max-w-4xl">
+<div class="flex flex-wrap items-center gap-space-sm">
+<span class="font-meta-label text-meta-label uppercase tracking-widest text-surface-tint bg-surface-container-high px-space-sm py-1 rounded border border-outline-variant">
+            Engineering Deep Dive
+          </span>
+<span class="font-code-sm text-code-sm text-outline">SYS-AI // RAG-CORE</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-code-sm text-code-sm text-on-surface-variant">Production Case Study</span>
+</div>
+<h1 class="font-headline-lg md:font-display-hero text-headline-lg md:text-display-hero text-on-surface tracking-tight leading-tight">
+          Building TrustLens: Grounding LLMs with Verifiable Document Citations
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+          A deep dive into eradicating hallucinations in high-stakes enterprise search through deterministic bounding-box attribution, reciprocal rank fusion, and hybrid pgvector retrieval.
+        </p>
+<!-- Metadata Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-md pt-space-sm border-t border-outline-variant text-on-surface-variant">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-full bg-surface-container-high border border-outline-variant flex items-center justify-center text-surface-tint font-headline-sm">
+              TA
+            </div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface leading-tight">T V Ajay</span>
+<span class="font-code-sm text-code-sm text-outline">Full-Stack Engineer & AI Systems Architect</span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-lg">
+<div class="flex items-center gap-space-xs font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-[18px] text-outline">calendar_today</span>
+<span>Nov 14, 2024</span>
+</div>
+<div class="flex items-center gap-space-xs font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-[18px] text-outline">timer</span>
+<span>5 min read</span>
+</div>
+<div class="flex items-center gap-space-xs font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-[18px] text-outline">visibility</span>
+<span>1,420 reads</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="p-2 rounded bg-surface-container-low hover:bg-surface-container border border-outline-variant hover:border-surface-tint text-on-surface-variant hover:text-surface-tint transition-all" id="copy-link-btn" onclick="copyArticleLink()" title="Copy Canonical Link">
+<span class="material-symbols-outlined text-[18px]" id="copy-icon">link</span>
+</button>
+<button class="p-2 rounded bg-surface-container-low hover:bg-surface-container border border-outline-variant hover:border-surface-tint text-on-surface-variant hover:text-surface-tint transition-all" title="Share Dispatch">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Topic Tags -->
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="font-code-sm text-code-sm text-surface-tint bg-surface-container-low px-2 py-0.5 rounded border border-outline-variant">#RAG</span>
+<span class="font-code-sm text-code-sm text-surface-tint bg-surface-container-low px-2 py-0.5 rounded border border-outline-variant">#Supabase</span>
+<span class="font-code-sm text-code-sm text-surface-tint bg-surface-container-low px-2 py-0.5 rounded border border-outline-variant">#TypeScript</span>
+<span class="font-code-sm text-code-sm text-surface-tint bg-surface-container-low px-2 py-0.5 rounded border border-outline-variant">#LLM</span>
+<span class="font-code-sm text-code-sm text-outline bg-surface-container-low px-2 py-0.5 rounded border border-outline-variant">#pgvector</span>
+</div>
+</header>
+<!-- Technical Architecture Banner / Vector Space Visualization -->
+<div class="relative w-full rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant mt-space-xl p-space-lg md:p-space-xl">
+<div class="absolute inset-0 bg-gradient-to-r from-surface-tint/10 via-transparent to-primary/5 pointer-events-none"></div>
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-lg relative z-10">
+<div class="flex flex-col gap-space-xs max-w-lg">
+<span class="font-meta-label text-meta-label text-surface-tint tracking-widest uppercase">System Topology Architecture</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">3D Latent Embedding Vector Space & Spatial Chunk Alignments</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              High-dimensional projections mapped through approximate nearest neighbors (HNSW). Nodes represent chunked PDF coordinates mapped directly to cosine similarity centroids.
+            </p>
+</div>
+<!-- Interactive Vector Wireframe Render -->
+<div class="relative w-full max-w-[420px] aspect-square flex items-center justify-center p-space-md">
+<!-- Simulated Vector Lattice Grid -->
+<svg class="w-full h-full text-surface-tint drop-shadow-[0_0_20px_rgba(0,217,255,0.35)]" fill="none" stroke="currentColor" viewbox="0 0 400 400">
+<defs>
+<radialgradient cx="50%" cy="50%" id="nodeGlow" r="50%">
+<stop offset="0%" stop-color="#00D9FF" stop-opacity="1"></stop>
+<stop offset="100%" stop-color="#00D9FF" stop-opacity="0"></stop>
+</radialgradient>
+</defs>
+<!-- Grid background -->
+<path d="M 50 100 H 350 M 50 200 H 350 M 50 300 H 350 M 100 50 V 350 M 200 50 V 350 M 300 50 V 350" stroke="#3c494d" stroke-dasharray="3 3" stroke-width="0.75"></path>
+<!-- Orbital Latent Ring Projections -->
+<ellipse cx="200" cy="200" rx="140" ry="60" stroke="#859398" stroke-dasharray="4 4" stroke-width="1" transform="rotate(-18 200 200)"></ellipse>
+<ellipse cx="200" cy="200" rx="150" ry="70" stroke="#3c494d" stroke-dasharray="2 4" stroke-width="0.8" transform="rotate(25 200 200)"></ellipse>
+<!-- Geometric Isometric Vector Bounding Hypercube -->
+<polygon fill="rgba(0, 217, 255, 0.04)" points="200,80 290,130 290,230 200,280 110,230 110,130" stroke="#00D9FF" stroke-width="1.75"></polygon>
+<line stroke="#00D9FF" stroke-width="1.5" x1="200" x2="200" y1="80" y2="280"></line>
+<line stroke="#00D9FF" stroke-width="1.5" x1="200" x2="290" y1="180" y2="130"></line>
+<line stroke="#00D9FF" stroke-width="1.5" x1="200" x2="110" y1="180" y2="130"></line>
+<line stroke="#00D9FF" stroke-width="1.5" x1="200" x2="200" y1="180" y2="280"></line>
+<!-- Vector Nodes -->
+<circle class="animate-pulse" cx="200" cy="80" fill="#00D9FF" r="5"></circle>
+<circle cx="290" cy="130" fill="#00D9FF" r="4.5"></circle>
+<circle cx="290" cy="230" fill="#00D9FF" r="4"></circle>
+<circle cx="200" cy="280" fill="#00D9FF" r="5"></circle>
+<circle cx="110" cy="230" fill="#00D9FF" r="4.5"></circle>
+<circle cx="110" cy="130" fill="#00D9FF" r="4"></circle>
+<!-- Origin Centroid Anchor -->
+<circle cx="200" cy="180" fill="#FFFFFF" r="6"></circle>
+<circle class="animate-spin" cx="200" cy="180" r="14" stroke="#00D9FF" stroke-dasharray="3 2" stroke-width="1.5" style="animation-duration: 8s; transform-origin: 200px 180px;"></circle>
+<!-- Auxiliary Latent Coordinates -->
+<path d="M 200 180 L 330 90" stroke="#ffbb2a" stroke-dasharray="2 2" stroke-width="1"></path>
+<circle cx="330" cy="90" fill="#ffbb2a" r="3"></circle>
+<text class="font-code-sm text-[10px]" fill="#ffdeaa" x="338" y="94">query: cos_θ 0.941</text>
+<path d="M 200 180 L 80 290" stroke="#859398" stroke-dasharray="2 2" stroke-width="1"></path>
+<circle cx="80" cy="290" fill="#859398" r="3"></circle>
+<text class="font-code-sm text-[10px]" fill="#859398" x="50" y="308">noise: cos_θ 0.282</text>
+</svg>
+<div class="absolute bottom-2 right-2 bg-surface-container-high/90 backdrop-blur px-2 py-1 rounded border border-outline-variant font-code-sm text-code-sm text-surface-tint">
+              HNSW (M=16, efConstruction=64)
+            </div>
+</div>
+</div>
+</div>
+<!-- Main Grid: Sticky TOC & Article Markdown Content -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl mt-space-2xl">
+<!-- Sticky Sidebar Navigation / Table of Contents -->
+<aside class="hidden lg:block lg:col-span-4 relative">
+<div class="sticky top-24 flex flex-col gap-space-md p-space-md rounded-xl bg-surface-container-low border border-outline-variant">
+<div class="flex items-center justify-between pb-space-xs border-b border-outline-variant">
+<span class="font-meta-label text-meta-label text-outline uppercase tracking-wider">Document Manifest</span>
+<span class="font-code-sm text-code-sm text-surface-tint">4 Sections</span>
+</div>
+<nav class="flex flex-col gap-1 text-body-sm font-body-sm">
+<a class="group flex items-start gap-space-xs p-space-xs rounded text-on-surface hover:text-surface-tint hover:bg-surface-container transition-all" href="#section-1">
+<span class="font-code-sm text-code-sm text-surface-tint">01.</span>
+<span class="group-hover:translate-x-0.5 transition-transform">The Hallucination Bottleneck in Clinical AI</span>
+</a>
+<a class="group flex items-start gap-space-xs p-space-xs rounded text-on-surface-variant hover:text-surface-tint hover:bg-surface-container transition-all" href="#section-2">
+<span class="font-code-sm text-code-sm text-outline group-hover:text-surface-tint">02.</span>
+<span class="group-hover:translate-x-0.5 transition-transform">Vector Retrieval isn't Enough: Why Hybrid Search Wins</span>
+</a>
+<a class="group flex items-start gap-space-xs p-space-xs rounded text-on-surface-variant hover:text-surface-tint hover:bg-surface-container transition-all" href="#section-3">
+<span class="font-code-sm text-code-sm text-outline group-hover:text-surface-tint">03.</span>
+<span class="group-hover:translate-x-0.5 transition-transform">Dynamic Bounding Box Extraction with PDF.js</span>
+</a>
+<a class="group flex items-start gap-space-xs p-space-xs rounded text-on-surface-variant hover:text-surface-tint hover:bg-surface-container transition-all" href="#section-4">
+<span class="font-code-sm text-code-sm text-outline group-hover:text-surface-tint">04.</span>
+<span class="group-hover:translate-x-0.5 transition-transform">Real-World Benchmarks & Latency Breakdown</span>
+</a>
+</nav>
+<!-- Metadata Widget -->
+<div class="mt-space-sm p-space-sm rounded bg-surface-container border border-outline-variant flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-meta-label text-meta-label text-outline">
+<span>INDEXED REPOSITORY</span>
+<span class="text-surface-tint">main@a39f60d</span>
+</div>
+<div class="font-code-sm text-code-sm text-on-surface truncate">
+                github.com/tvajay/trustlens-core
+              </div>
+</div>
+</div>
+</aside>
+<!-- Article Prose Body -->
+<article class="col-span-1 lg:col-span-8 flex flex-col gap-space-xl text-on-surface-variant leading-relaxed">
+<!-- Section 1 -->
+<section class="flex flex-col gap-space-md scroll-mt-24" id="section-1">
+<div class="flex items-center gap-space-xs text-surface-tint font-code-sm text-code-sm">
+<span>§ 01</span>
+<span class="h-px w-6 bg-outline-variant"></span>
+<span class="text-outline uppercase">Introduction & Context</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              1. The Hallucination Bottleneck in Clinical AI
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              When working in mission-critical environments—such as healthcare, legal forensics, or financial compliance—a standard generative response is unusable if its genesis cannot be mathematically verified. Standard Retrieval-Augmented Generation (RAG) paradigms ingest unstructured documents, parse them into naive text windows, generate vector embeddings, and pump nearest neighbors straight into the contextual window of a large foundation model.
+            </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              The fundamental flaw? <strong class="text-on-surface font-semibold">Semantic proximity does not guarantee factual entailment.</strong> Even if an embedding pipeline successfully retrieves the exact paragraph containing clinical dosing metrics, an autoregressive language model can still blend adjacent semantic weights, yielding subtly catastrophic misattributions.
+            </p>
+<!-- Pull Quote Callout -->
+<blockquote class="my-space-sm p-space-lg rounded-xl bg-surface-container-low border-l-4 border-surface-tint flex flex-col gap-space-xs">
+<span class="font-headline-md text-headline-md text-on-surface font-display-hero italic">
+                "An LLM cite that points to an entire 80-page whitepaper without page-level, visual spatial bounding coordinates is not a citation. It is an unverified assertion."
+              </span>
+<cite class="font-code-sm text-code-sm text-surface-tint not-italic">— Architectural Journal: TrustLens Protocol Specification</cite>
+</blockquote>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              To solve this, TrustLens enforces bidirectional validation: every assertion output by the generative synthesis node must pair with a coordinate-bounded polygon mapped to the client PDF viewport, accompanied by an invariant cryptographic hash of the raw extracted token slice.
+            </p>
+</section>
+<!-- Section 2 -->
+<section class="flex flex-col gap-space-md scroll-mt-24" id="section-2">
+<div class="flex items-center gap-space-xs text-surface-tint font-code-sm text-code-sm">
+<span>§ 02</span>
+<span class="h-px w-6 bg-outline-variant"></span>
+<span class="text-outline uppercase">Retrieval Architecture</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              2. Vector Retrieval isn't Enough: Why Hybrid Search Wins
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              Cosine similarity in high-dimensional dense vector spaces excels at topical conceptualization, but fails miserably at exact keyword parity. For instance, querying a drug name like <code class="font-code-sm text-code-sm text-primary px-1.5 py-0.5 rounded bg-surface-container">Ciprofloxacin 500mg</code> frequently scores lower in pure dense vector representations than ambiguous phrases like "broad-spectrum fluoroquinolone antibiotic treatment."
+            </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              To fix this divergence, TrustLens deploys a <strong class="text-on-surface font-semibold">Hybrid Search Router</strong> inside Supabase PostgreSQL using <code class="font-code-sm text-code-sm text-surface-tint">pgvector</code> coupled with a native GIN full-text search index, fused together using Reciprocal Rank Fusion (RRF):
+            </p>
+<!-- Code Snippet Container -->
+<div class="rounded-xl overflow-hidden bg-surface-container-lowest border border-outline-variant my-space-sm">
+<!-- Window Chrome Header -->
+<div class="flex items-center justify-between px-space-md py-2.5 bg-surface-container border-b border-outline-variant">
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded-full bg-error-container"></span>
+<span class="w-3 h-3 rounded-full bg-tertiary-container"></span>
+<span class="w-3 h-3 rounded-full bg-surface-tint/80"></span>
+</div>
+<span class="font-code-sm text-code-sm text-outline pl-space-xs">supabase/migrations/20241114_hybrid_search.sql</span>
+</div>
+<button class="flex items-center gap-1 font-code-sm text-code-sm text-on-surface-variant hover:text-surface-tint transition-colors" onclick="copySnippetCode(this)">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span>Copy SQL</span>
+</button>
+</div>
+<!-- Code Content -->
+<div class="p-space-md overflow-x-auto font-code-sm text-code-sm leading-relaxed text-on-surface">
+<pre class="grid grid-cols-[2rem_1fr] gap-x-space-sm"><span class="text-outline text-right select-none">1</span><code><span class="text-tertiary">CREATE OR REPLACE FUNCTION</span> match_document_chunks_hybrid(</code>
+<span class="text-outline text-right select-none">2</span><code>  query_text <span class="text-surface-tint">TEXT</span>,</code>
+<span class="text-outline text-right select-none">3</span><code>  query_embedding <span class="text-surface-tint">vector(1536)</span>,</code>
+<span class="text-outline text-right select-none">4</span><code>  match_count <span class="text-surface-tint">INT</span> DEFAULT <span class="text-tertiary">10</span>,</code>
+<span class="text-outline text-right select-none">5</span><code>  rrf_k <span class="text-surface-tint">INT</span> DEFAULT <span class="text-tertiary">60</span></code>
+<span class="text-outline text-right select-none">6</span><code>) <span class="text-tertiary">RETURNS TABLE</span> (id <span class="text-surface-tint">UUID</span>, content <span class="text-surface-tint">TEXT</span>, bounding_box <span class="text-surface-tint">JSONB</span>, score <span class="text-surface-tint">FLOAT</span>) <span class="text-tertiary">AS</span> $$</code>
+<span class="text-outline text-right select-none">7</span><code><span class="text-tertiary">WITH</span> semantic_search <span class="text-tertiary">AS</span> (</code>
+<span class="text-outline text-right select-none">8</span><code>  <span class="text-tertiary">SELECT</span> id, content, bounding_box,</code>
+<span class="text-outline text-right select-none">9</span><code>         ROW_NUMBER() <span class="text-tertiary">OVER</span> (<span class="text-tertiary">ORDER BY</span> embedding <=> query_embedding) <span class="text-tertiary">AS</span> rank</code>
+<span class="text-outline text-right select-none">10</span><code>  <span class="text-tertiary">FROM</span> document_chunks</code>
+<span class="text-outline text-right select-none">11</span><code>  <span class="text-tertiary">LIMIT</span> match_count * 2</code>
+<span class="text-outline text-right select-none">12</span><code>),</code>
+<span class="text-outline text-right select-none">13</span><code>full_text_search <span class="text-tertiary">AS</span> (</code>
+<span class="text-outline text-right select-none">14</span><code>  <span class="text-tertiary">SELECT</span> id, content, bounding_box,</code>
+<span class="text-outline text-right select-none">15</span><code>         ROW_NUMBER() <span class="text-tertiary">OVER</span> (<span class="text-tertiary">ORDER BY</span> ts_rank_cd(to_tsvector(<span class="text-primary-container">'english'</span>, content), plainto_tsquery(<span class="text-primary-container">'english'</span>, query_text)) <span class="text-tertiary">DESC</span>) <span class="text-tertiary">AS</span> rank</code>
+<span class="text-outline text-right select-none">16</span><code>  <span class="text-tertiary">FROM</span> document_chunks</code>
+<span class="text-outline text-right select-none">17</span><code>  <span class="text-tertiary">WHERE</span> to_tsvector(<span class="text-primary-container">'english'</span>, content) @@ plainto_tsquery(<span class="text-primary-container">'english'</span>, query_text)</code>
+<span class="text-outline text-right select-none">18</span><code>  <span class="text-tertiary">LIMIT</span> match_count * 2</code>
+<span class="text-outline text-right select-none">19</span><code>)</code>
+<span class="text-outline text-right select-none">20</span><code><span class="text-tertiary">SELECT</span> COALESCE(s.id, f.id) <span class="text-tertiary">AS</span> id,</code>
+<span class="text-outline text-right select-none">21</span><code>       COALESCE(s.content, f.content) <span class="text-tertiary">AS</span> content,</code>
+<span class="text-outline text-right select-none">22</span><code>       COALESCE(s.bounding_box, f.bounding_box) <span class="text-tertiary">AS</span> bounding_box,</code>
+<span class="text-outline text-right select-none">23</span><code>       (COALESCE(<span class="text-tertiary">1.0</span> / (rrf_k + s.rank), <span class="text-tertiary">0.0</span>) + COALESCE(<span class="text-tertiary">1.0</span> / (rrf_k + f.rank), <span class="text-tertiary">0.0</span>))::FLOAT <span class="text-tertiary">AS</span> score</code>
+<span class="text-outline text-right select-none">24</span><code><span class="text-tertiary">FROM</span> semantic_search s</code>
+<span class="text-outline text-right select-none">25</span><code><span class="text-tertiary">FULL OUTER JOIN</span> full_text_search f <span class="text-tertiary">ON</span> s.id = f.id</code>
+<span class="text-outline text-right select-none">26</span><code><span class="text-tertiary">ORDER BY</span> score <span class="text-tertiary">DESC</span></code>
+<span class="text-outline text-right select-none">27</span><code><span class="text-tertiary">LIMIT</span> match_count;</code>
+<span class="text-outline text-right select-none">28</span><code>$$ <span class="text-tertiary">LANGUAGE</span> sql STABLE;</code></pre>
+</div>
+</div>
+<!-- Architectural Callout Box -->
+<div class="rounded-xl p-space-lg bg-surface-container-low border border-outline-variant flex items-start gap-space-md shadow-lg">
+<span class="material-symbols-outlined text-surface-tint text-[28px] mt-0.5">verified_user</span>
+<div class="flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-on-surface">Architectural Rule 01</span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+<strong class="text-surface-tint">Key Takeaway:</strong> Never pass raw unsanitized retrieved chunks directly to generative models without cross-document consistency checks. Embeddings tell you where concepts correlate; strict AST schemas tell you whether the document actually asserts it.
+                </p>
+</div>
+</div>
+</section>
+<!-- Section 3 -->
+<section class="flex flex-col gap-space-md scroll-mt-24" id="section-3">
+<div class="flex items-center gap-space-xs text-surface-tint font-code-sm text-code-sm">
+<span>§ 03</span>
+<span class="h-px w-6 bg-outline-variant"></span>
+<span class="text-outline uppercase">Spatial Ingestion</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              3. Dynamic Bounding Box Extraction with PDF.js
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              When documents are ingested, OCR parsing typically discards CSS/Canvas absolute coordinate matrices. TrustLens alters the compilation pipeline of <code class="font-code-sm text-code-sm text-on-surface">pdfjs-dist</code> in our Node/Edge workers. During text chunking, every span retains its normalized screen bounding boxes:
+            </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md my-space-xs">
+<div class="p-space-md rounded-xl bg-surface-container-low border border-outline-variant flex flex-col gap-space-xs">
+<span class="font-meta-label text-meta-label text-outline uppercase">Standard Chunk Record</span>
+<code class="font-code-sm text-code-sm text-outline">
+                  { "text": "Patient was administered 20ml sterile saline..." }
+                </code>
+<p class="font-body-sm text-body-sm text-outline mt-auto">Discarded coordinate viewport context. Impossibility of visual document alignment.</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-high border border-surface-tint/40 flex flex-col gap-space-xs shadow-[0_0_20px_rgba(0,217,255,0.1)]">
+<div class="flex items-center justify-between">
+<span class="font-meta-label text-meta-label text-surface-tint uppercase">TrustLens Attributed Node</span>
+<span class="w-2 h-2 rounded-full bg-surface-tint"></span>
+</div>
+<code class="font-code-sm text-code-sm text-primary">
+                  { page: 4, x1: 72.4, y1: 184.2, x2: 410.8, y2: 202.0, checksum: "8f7e2a" }
+                </code>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-auto">Deterministic spatial bounding box projected directly onto interactive PDF viewport overlays.</p>
+</div>
+</div>
+</section>
+<!-- Section 4 -->
+<section class="flex flex-col gap-space-md scroll-mt-24" id="section-4">
+<div class="flex items-center gap-space-xs text-surface-tint font-code-sm text-code-sm">
+<span>§ 04</span>
+<span class="h-px w-6 bg-outline-variant"></span>
+<span class="text-outline uppercase">Empirical Metrics</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              4. Real-World Benchmarks & Latency Breakdown
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              We evaluated our pipeline across 1,000 regulatory compliance dossiers (totaling 42,000 pages). TrustLens achieved a significant leap in Mean Reciprocal Rank (MRR@5) while virtually eradicating ungrounded generative hallucinations.
+            </p>
+<!-- Performance Benchmark Comparison Table -->
+<div class="overflow-x-auto rounded-xl border border-outline-variant bg-surface-container-low shadow-xl my-space-sm">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container border-b border-outline-variant font-meta-label text-meta-label text-outline uppercase tracking-wider">
+<th class="py-space-sm px-space-md">Pipeline Architecture</th>
+<th class="py-space-sm px-space-md">MRR @ 5</th>
+<th class="py-space-sm px-space-md">P95 Retrieval Latency</th>
+<th class="py-space-sm px-space-md">Hallucination Rate</th>
+<th class="py-space-sm px-space-md">Citation Precision</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant font-code-sm text-code-sm">
+<tr class="hover:bg-surface-container/50 transition-colors">
+<td class="py-space-sm px-space-md font-body-md text-body-md text-on-surface font-medium">Naive pgvector RAG</td>
+<td class="py-space-sm px-space-md text-on-surface-variant">0.684</td>
+<td class="py-space-sm px-space-md text-on-surface-variant">114ms</td>
+<td class="py-space-sm px-space-md text-error">18.4%</td>
+<td class="py-space-sm px-space-md text-outline">N/A (Document-level)</td>
+</tr>
+<tr class="hover:bg-surface-container/50 transition-colors">
+<td class="py-space-sm px-space-md font-body-md text-body-md text-on-surface font-medium">BM25 + Cross-Encoder</td>
+<td class="py-space-sm px-space-md text-on-surface-variant">0.742</td>
+<td class="py-space-sm px-space-md text-on-surface-variant">380ms</td>
+<td class="py-space-sm px-space-md text-tertiary">9.2%</td>
+<td class="py-space-sm px-space-md text-outline">Chunk-level (±200w)</td>
+</tr>
+<tr class="bg-surface-tint/5 hover:bg-surface-tint/10 transition-colors border-l-2 border-surface-tint">
+<td class="py-space-sm px-space-md font-body-md text-body-md text-surface-tint font-bold flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px]">stars</span>
+<span>TrustLens Hybrid + Bounding Engine</span>
+</td>
+<td class="py-space-sm px-space-md text-surface-tint font-bold">0.932</td>
+<td class="py-space-sm px-space-md text-on-surface">148ms</td>
+<td class="py-space-sm px-space-md text-surface-tint font-bold">0.8%</td>
+<td class="py-space-sm px-space-md text-surface-tint font-bold">Exact Bounding Box (99.4%)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              While adding reciprocal rank fusion adds an overhead of ~34ms compared to naive cosine querying, the drop in hallucination rates from <span class="text-error font-medium">18.4%</span> down to <span class="text-surface-tint font-medium">0.8%</span> unlocks regulatory grade deployment viability.
+            </p>
+</section>
+<!-- Social Share Actions -->
+<div class="flex flex-wrap items-center justify-between gap-space-md p-space-md rounded-xl bg-surface-container-low border border-outline-variant mt-space-md">
+<span class="font-headline-sm text-headline-sm text-on-surface">Discuss or Share This Analysis</span>
+<div class="flex items-center gap-space-sm">
+<a class="inline-flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-surface-container hover:bg-surface-container-high border border-outline-variant hover:border-surface-tint text-on-surface font-code-sm text-code-sm transition-all" href="#">
+<span class="material-symbols-outlined text-[16px] text-surface-tint">share</span>
+<span>Share on X / Twitter</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-surface-container hover:bg-surface-container-high border border-outline-variant hover:border-surface-tint text-on-surface font-code-sm text-code-sm transition-all" href="#">
+<span class="material-symbols-outlined text-[16px] text-surface-tint">post_add</span>
+<span>Share on LinkedIn</span>
+</a>
+</div>
+</div>
+<!-- Author Bio Card -->
+<div class="p-space-lg rounded-xl bg-surface-container border border-outline-variant flex flex-col sm:flex-row items-center sm:items-start gap-space-lg shadow-xl">
+<div class="w-20 h-20 rounded-full bg-surface-container-high border-2 border-surface-tint flex items-center justify-center shrink-0 text-surface-tint text-headline-lg font-headline-lg">
+              TA
+            </div>
+<div class="flex flex-col gap-space-xs text-center sm:text-left">
+<div class="flex flex-wrap items-center justify-center sm:justify-start gap-space-xs">
+<span class="font-headline-md text-headline-md text-on-surface">T V Ajay</span>
+<span class="font-meta-label text-meta-label text-surface-tint bg-surface-container-high px-space-xs py-0.5 rounded border border-outline-variant">AUTHOR</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Computer Science student at VVCE Mysore building high-performance AI systems and distributed web backends. Focused on retrieval architectures, database internals, and deterministic inference.
+              </p>
+<div class="flex items-center justify-center sm:justify-start gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-1 font-code-sm text-code-sm text-surface-tint hover:underline" href="#">
+<span class="material-symbols-outlined text-[16px]">terminal</span>
+<span>Follow on GitHub</span>
+</a>
+<span class="text-outline-variant">/</span>
+<a class="inline-flex items-center gap-1 font-code-sm text-code-sm text-surface-tint hover:underline" href="#">
+<span class="material-symbols-outlined text-[16px]">group</span>
+<span>Connect on LinkedIn</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- Related Engineering Posts Section -->
+<section class="mt-space-2xl pt-space-xl border-t border-outline-variant">
+<div class="flex items-center justify-between mb-space-lg">
+<div>
+<span class="font-meta-label text-meta-label text-surface-tint tracking-widest uppercase">System Logs</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Related Dispatches & Deep Dives</h2>
+</div>
+<a class="hidden md:inline-flex items-center gap-space-xs font-code-sm text-code-sm text-surface-tint hover:underline" data-path="blog" href="#">
+<span>View all articles</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Related Card 1 -->
+<a class="group p-space-lg rounded-xl bg-surface-container-low border border-outline-variant hover:border-surface-tint/60 transition-all flex flex-col justify-between gap-space-md shadow-md hover:shadow-[0_0_24px_rgba(0,217,255,0.1)]" href="#">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-outline font-code-sm text-code-sm">
+<span>DATABASE ARCHITECTURE</span>
+<span>8 min read</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-surface-tint transition-colors">
+                Why We Switched to Supabase Vector for Edge Embeddings
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">
+                Benchmarking latency and cold starts: comparing dedicated vector clusters against colocated PostgreSQL relational stores.
+              </p>
+</div>
+<div class="flex items-center gap-space-xs font-code-sm text-code-sm text-surface-tint">
+<span>Read Analysis</span>
+<span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+<!-- Related Card 2 -->
+<a class="group p-space-lg rounded-xl bg-surface-container-low border border-outline-variant hover:border-surface-tint/60 transition-all flex flex-col justify-between gap-space-md shadow-md hover:shadow-[0_0_24px_rgba(0,217,255,0.1)]" href="#">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-outline font-code-sm text-code-sm">
+<span>AI FOUNDATIONS</span>
+<span>6 min read</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface group-hover:text-surface-tint transition-colors">
+                Demystifying RAG Architecture: From Naive Chunks to Knowledge Graphs
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">
+                An interactive architectural review of hierarchical clustering, parent-child retrieval windows, and cross-encoder rerankers.
+              </p>
+</div>
+<div class="flex items-center gap-space-xs font-code-sm text-code-sm text-surface-tint">
+<span>Read Analysis</span>
+<span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+</div>
+</section>
+</div>
+</div>
+<script>
+    function copyArticleLink() {
+      navigator.clipboard.writeText(window.location.href);
+      const icon = document.getElementById('copy-icon');
+      if (icon) {
+        icon.innerText = 'check';
+        setTimeout(() => {
+          icon.innerText = 'link';
+        }, 2000);
+      }
+    }
+
+    function copySnippetCode(button) {
+      const codeBlock = button.closest('.rounded-xl').querySelector('pre');
+      if (codeBlock) {
+        navigator.clipboard.writeText(codeBlock.innerText);
+        const originalText = button.innerHTML;
+        button.innerHTML = '<span class="material-symbols-outlined text-[16px]">check</span><span>Copied!</span>';
+        setTimeout(() => {
+          button.innerHTML = originalText;
+        }, 2000);
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant mt-space-2xl"><div class="max-w-[1360px] mx-auto px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-gutter"><div class="flex flex-col items-center md:items-start gap-space-xs"><div class="flex items-center gap-space-sm"><img alt="TV Monogram Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VUJSdqrYvxJjpm5qiPtqpQtHrg7_nL4aWCx8I8S1jKua5Bb1beFyPt2vX92XiZ1kLkM1RgQcXhXvZSODarz72hPea_fIMmaQSc-ZZH8NzdId8E005dnw6bvYdcy-VZpRwsHoLm4PQ0FF7-WRSEwIKRQBYOY-0_cYOkhYRcyt-_oK4JswYnpljTWclGTTRFRbiV9-IMci5gvkyvEEk3bwdAAT1FM36WDJcTDBkiNVSL"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">T V Ajay</span></div><p class="font-code-sm text-code-sm text-outline">High-Performance Systems & Full-Stack Architecture</p></div><div class="flex flex-wrap items-center justify-center gap-gutter"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="#">Projects</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="education" href="#">Education</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="experience" href="#">Experience</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="certifications" href="#">Certifications</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="blog" href="#">Blog</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></div><div class="flex items-center gap-space-md"><span class="font-meta-label text-meta-label text-outline">© 2024 T V Ajay. All rights reserved.</span></div></div></footer></body></html>
